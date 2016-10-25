@@ -1,0 +1,59 @@
+.meniu{
+	color: red;
+}
+.meniu_elem{
+	color: green;
+	font-size: 20px;
+}
+#meniu2{
+}
+
+body {
+	background-color: aqua;
+	margin: 0;
+}
+header {
+	border-bottom: 1px solid black;
+	background-color: antiquewhite;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+h1 {
+	pading:0;
+	margin: 0;
+}
+.content {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	top: 71px;
+	padding: 10px;
+}
+footer {
+	position: relative;
+	width: 100%;
+	height: 70px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	height: 70px;
+	margin: 0;
+	width: inherit;
+}
+li {
+	display: inline;
+	width: 100px;
+	height: 30px;
+	padding: 20px 10px;
+	border: 3px;
+	border-color: red;
+	border-style: dashed;
+}
+li:hover {
+	background-color: brown;
+}
+
+li > a {
+}

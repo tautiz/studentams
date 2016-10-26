@@ -19,10 +19,10 @@ header {
 	z-index: 9999;
 }
 h1 {
-	pading:0;
+	padding:0;
 	margin: 0;
 }
-.content {
+section {
 	position: relative;
 	top: 71px;
 	padding: 10px;
@@ -35,8 +35,10 @@ footer {
 	background-color: gray;
 	position: relative;
 	width: 100%;
-	height: 70px;
-	top: 71px
+	min-height: 30px;
+	max-height: 50px;
+	top: 71px;
+	overflow: hidden;
 }
 ul {
 	list-style: none;
@@ -76,4 +78,9 @@ li > a {
 }
 .fr {
 	float: right;
+}
+label {
+	display: inline-table;
+	min-width: 100px;
+	max-width: 200px;
 }

@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Pirma svetaine</title>
+    <link rel="stylesheet" href="css/stiliai.css" />
+    <meta charset="utf-8" />
+</head>
+<body>
+<header>
+    <ul class="meniu" id="meniu">
+        <li>
+            <a class="meniu_elem" id="meniu1" href="index.html" target="_self">Be stiliaus</a>
+        </li>
+        <li>
+            <a class="meniu_elem" id="meniu2" href="antras.html" target="_self">Su stilium</a>
+        </li>
+        <li>
+            <a class="meniu_elem" id="meniu3" href="kontaktai.html" target="_self">Kontaktai</a>
+        </li>
+    </ul>
+</header>
+<section>
+    <h1>Kontaktai</h1>
+
+    <form action="submit.php" method="post">
+        <label for="vardas2" name="vardas">Vardas: </label>
+        <input type="text" name="vardas" id="vardas2" placeholder="Jūsų vardas čia..." /><br/>
+
+        <label for="elpastas2" name="vardas">El.paštas: </label>
+        <input type="email" name="elpastas" id="elpastas2" placeholder="Jūsų el. pašto adresas čia..." /><br/>
+
+        <label for="zinute2" name="vardas">Žinutę: </label>
+        <textarea name="zinute" id="zinute2" placeholder="Parašykite savo žinutę..." rows="10" cols="21"></textarea><br/>
+
+        <input type="submit" name="submit" value="Siusti" />
+
+    </form>
+
+    <table class="lentele">
+
+        <tr>
+            <th>Vardas</th>
+            <th>El. paštas</th>
+            <th>Žinutė</th>
+        </tr>
+
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<footer>
+    <hr/>
+    <span class="createdby fr">Svetaine kure: Tautvydas</span><br>
+</footer>
+
+</body>
+</html>

@@ -1,86 +1,17 @@
-.meniu{
-	color: red;
+.navbar-header a{
+	border-left: 2px solid white;
+	margin-right: 10px;
 }
-.meniu_elem{
-	color: green;
-	font-size: 20px;
+.navbar-header a:last-child{
+	border-right: 2px solid white;
 }
-#meniu2{
+.navbar-header a:first-child{
+	margin-right: 0;
 }
-
-body {
-	margin: 0;
-}
-header {
-	border-bottom: 1px solid black;
-	background-color: antiquewhite;
-	width: 100%;
-	position: fixed;
-	z-index: 9999;
-}
-h1 {
-	padding:0;
-	margin: 0;
-}
-section {
-	position: relative;
-	top: 71px;
-	padding: 10px;
-	overflow: auto;
-}
-.createdby {
-	padding-right: 10px;
-}
-footer {
-	background-color: gray;
-	position: relative;
-	width: 100%;
-	min-height: 30px;
-	max-height: 50px;
-	top: 71px;
-	overflow: hidden;
-}
-ul {
-	list-style: none;
-	padding: 0;
-	height: 70px;
-	margin: 0;
-	width: inherit;
-}
-li {
-	display: inline;
-	width: 100px;
-	height: 30px;
-	padding: 20px 10px;
-	border: 3px;
-	border-color: red;
-	border-style: dashed;
-}
-li:hover {
-	background-color: brown;
-}
-
-li > a {
-}
-.thumbnail {
-	width: 200px;
-	padding: 5px;
-	margin: 10px;
-	border: 1px solid black;
-	/*display: block;*/
-
-}
-.custom_marg {
-	margin: 0 10px 10px 0;
-}
-.fl {
-	float: left;
-}
-.fr {
-	float: right;
-}
-label {
-	display: inline-table;
-	min-width: 100px;
-	max-width: 200px;
+.navbar-header a:hover {
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#222),to(#3c3c3c));
+	background-image: linear-gradient(to bottom,#222 0,#3c3c3c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff3c3c3c', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
 }
